@@ -42,9 +42,9 @@ namespace MidtermProject.DAL
 
             DBContext<ApplicationUser>.Add(new List<ApplicationUser>
             { 
-                new Customer("Brian Jan", "Zamoras",  "Tacloban City, Leyte"),
-                new Customer("Shirlyn", "Carcedo",  "Abuyog, Leyte"),
-                new Customer("John Mark", "Zamoras",  "Liloan, Cebu")
+                new Customer("John", "Doe",  "Sydney, Australia"),
+                new Customer("Walter", "Gharamond",  "Tartaria"),
+                new Customer("Lewis", "Griffith",  "Ontario, Canada")
             });
 
             ProductProfile product = new ProductProfile("Nature Spring Water", 145, "100001");
